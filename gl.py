@@ -36,7 +36,7 @@ def main():
         for item in testable:
             f.write(json.dumps(item, ensure_ascii=False) + "\n")
 
-    print(f"✅ 已从 {len(funcs)} 个函数中过滤出 {len(testable)} 个适合写测试用例的函数。")
+    print(f" 已从 {len(funcs)} 个函数中过滤出 {len(testable)} 个适合写测试用例的函数。")
     print(f"结果已保存到: {OUTPUT_FILE}")
 
 
